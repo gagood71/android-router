@@ -10,7 +10,7 @@
 ```java
 package com.home;
 
-@Route(namespace = "com.home.HomeActivity", path = "app/home", group = "app")
+@Route(namespace = "com.home.HomeActivity", activity = "HomeActivity", path = "app/home", group = "app")
 public class HomeActivity extends Activity {
     //...
 }
